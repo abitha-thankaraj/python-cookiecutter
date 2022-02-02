@@ -2,4 +2,4 @@
 A minimalist cookiecutter for research and data science projects
 forked from : patrickmineault/true-neutral-cookiecutter
 
-Run via `cookiecutter gh:abitha-thankaraj/python-cookiecutter-template`
+Run via `cookiecutter gh:abitha-thankaraj/python-cookiecutter`
