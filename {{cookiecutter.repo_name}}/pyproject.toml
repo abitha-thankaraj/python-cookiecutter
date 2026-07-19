@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = {{ cookiecutter.repo_name | tojson }}
+version = "0.1.0"
+description = {{ cookiecutter.description | tojson }}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = [{{ (cookiecutter.package_name + "*") | tojson }}]
